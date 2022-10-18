@@ -40,14 +40,14 @@ const animate = ()=>{
 
     if(dy!=0){
         
-        player.style.backgroundImage= `url(../img/Jump__00${index++}.png)`;
+        player.style.backgroundImage= `url(img/Jump__00${index++}.png)`;
         
     }
     else if(dx!=0){
-        player.style.backgroundImage= `url(../img/Run__00${index++}.png)`;
+        player.style.backgroundImage= `url(img/Run__00${index++}.png)`;
     }
     else{
-        player.style.backgroundImage= `url(../img/Idle__00${index++}.png)`;
+        player.style.backgroundImage= `url(img/Idle__00${index++}.png)`;
     }
     if(index>9)index=0;
 
