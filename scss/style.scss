@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/BG.png);
+    
+   height: 100vh;
+    overflow: hidden;
+    background-size: contain;
+
+}
+
+#player{
+    // background-color: red;
+    background-image: url(../img/Idle__001.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 127px;
+    bottom: 850px;
+
+}
+.turn{
+    transform: rotateY(180deg);
+}
+
+#ground{
+    // background-color: green;
+    background-image: url(../img/Tile\ \(2\).png);
+    position: absolute;
+    height: 150px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
